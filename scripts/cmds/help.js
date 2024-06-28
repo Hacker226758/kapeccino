@@ -64,6 +64,10 @@ animagine: {
     description: "deletes bot messages",
     guide: "reply to bot message and type -unsend"
   },
+  eval: {
+    name: "eval",
+    description: "Excute JavaScript code"
+    guide: "+eval"
 };
 
 module.exports = {
@@ -102,12 +106,14 @@ module.exports = {
 │ - Tempmail
 │ - Unsend
 │ - Uptime
+│ - Uptime
+│ - eval
 ╰─━━━━━━━━━╾─╯
--𝚑𝚎𝚕𝚙 <𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚗𝚊𝚖𝚎>
++𝚑𝚎𝚕𝚙 <𝚌𝚘𝚖𝚖𝚊𝚗𝚍 𝚗𝚊𝚖𝚎>
 𝚃𝚘 𝚜𝚎𝚎 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎
 𝚝𝚑𝚎 𝚌𝚘𝚖𝚖𝚊𝚗𝚍𝚜.
 
-Example: -help ai
+Example: +help ai
 ━━━━━━━━━━━━━━━━`;
 
       return message.reply(commandsList);
