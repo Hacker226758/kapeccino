@@ -67,7 +67,6 @@ animagine: {
   eval: {
     name: "eval",
     description: "Excute JavaScript code"
-    guide: "+eval"
 };
 
 module.exports = {
